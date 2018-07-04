@@ -119,10 +119,10 @@ def Face_Capture():
 
 def sendsms_Inform():
     message = "Someone Anonymously Tried To Access Your Account... Images of the unauthorized person is mailed to you" 
-    number = "9830079457"
+    number = "Your Mobile Phone Number"
  
-    username = "9830079457"
-    passwd = "9830079457"
+    username = "Your Way2SMS username"
+    passwd = "Your Way2SMS password"
 
     message = "+".join(message.split(' '))
 
