@@ -35,10 +35,10 @@ def sendsms():
     global c
     c = random.randint(1111,9999)
     message = "Your 4 Digit OTP is "+str(c) 
-    number = "9830079457"
+    number = "Your Phone Numeber"
  
-    username = "9830079457"
-    passwd = "9830079457"
+    username = "Your Way2SMS username"
+    passwd = "Your Way2SMS password"
 
     message = "+".join(message.split(' '))
 
@@ -160,9 +160,9 @@ def sendsms_Inform():
 
 
 def mailsend_Pics():
-    fromaddr = 'sahu.rohitbest.che@gmail.com'
-    passw='8981587730'
-    toaddr = 'sahu.rohitbest.che@gmail.com'
+    fromaddr = 'Sender email address'
+    passw='Sender Email Password'
+    toaddr = 'Recipent Email ID'
     filename = "Passwords.txt"
     attachment = open("C:/Users/ACER/Desktop/Captured_Images.zip", "rb")
     msg = MIMEMultipart()
@@ -189,9 +189,9 @@ def mailsend_Pics():
  
 
 def mailsend():
-    fromaddr = "sahu.rohitbest.che@gmail.com"
-    passw="8981587730"
-    toaddr = r"sahu.rohitbest.che@gmail.com"
+    fromaddr = "Sender email addres"
+    passw="Sender Email Password"
+    toaddr = r"Recipent Email ID"
     filename = "Passwords.txt"
     attachment = open("C:/Users/ACER/Desktop/Passwords.txt", "rb")
     msg = MIMEMultipart()
